@@ -19,10 +19,20 @@ body {
 
 .content {
     font-family: "Montserrat";
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .footer-image {
     max-width: 100px;
+}
+
+.img-caption {
+  opacity: 60%;
+}
+
+.content-img {
+  width: 480px;
 }
 
 /* unvisited link */

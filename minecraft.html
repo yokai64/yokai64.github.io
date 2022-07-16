@@ -14,7 +14,7 @@
       <br>
       <br>
       <div class="justify-content-center">
-          <h1 id="header" class="text-center">Connect to the Minecraft Server</h1>
+          <h1 id="header" class="text-center" id="top">Connect to the Minecraft Server</h1>
           <div class="container other-pages-header">
               <div class="row">
                 <div class="col">
@@ -28,8 +28,61 @@
           <br>
       </div>
 
+      <hr>
+      <br>
+ 
       <div class="container content">
-          I'm going to add info on how to connect to the minecraft server later lol.
+          <p class="text-center">Page last updated 16/07/2022</p>
+
+          <h5 class="text-center">The current version of the server is</h5>
+          <h3 class="text-center">a1.0.15</h3>
+
+          <br>
+          <h3 class="text-center">Index</h3>
+          <br>
+          <h4 id="links"><a href="#about">About this server</a></h4>
+          <h4 id="links"><a href="#setup">Set up for the current version</a></h4>
+          <h4 id="links"><a href="#access">Getting access (IP Address)</a></h4>
+          <br>
+
+          <br>
+          <h3 class="text-center" id="about">About this server</h3>
+          <h6 class="text-center" ><u><a href="#top">Back to top</a></u></h6>
+          <br>
+          <p>This server is an experiment to see how far a single world can be taken through the retro and modern versions of Minecraft. We will be starting with the earliest version of Minecraft that supports multiplayer servers - version a1.0.15 - and slowly progress to the most recent version of Minecraft (whatever that happens to be, currently 1.19). How will the world generation fail? Will we see crazy chunk errors? Who knows!</p>
+          <div class="text-center"><img class="img-fluid content-img" src="assets/img/spawn.jpg"></div>
+          <p class="text-center img-caption">Fig 1: Spawn as of 16/07/2022</p>
+          <br>
+
+          <h3 class="text-center" id="setup">Set up for the current version</h3>
+          <h6 class="text-center" ><u><a href="#top">Back to top</a></u></h6>
+          <br>
+          <h5><b>The Problem: Classic Minecraft</b></h5>
+          <p>You may be thinking: "What is the need for this section? All I need to do is just go into the Minecraft Launcher, and add the version of Minecraft the server is currently on!" That was my thinking too, however after some testing I have found that on modern systems every version of Minecraft prior to 1.3.1 has difficulty running. Not performance wise, but in the sense that you can't even get past the slash screen to join a server or start a new world. You can give it a try yourself, and if you look at the logs you'll see that the game gets stuck trying to load some legacy Java code that the current versions of Windows no longer supports (I haven't tried this on macOS or Linux, so if it works for you via the official launcher then good for you 🙂)</p>
+          <div class="text-center"><img class="img-fluid content-img" src="assets/img/classic-error.png"></div>
+          <p class="text-center img-caption">Fig 2: Trying to run Classic Minecraft via MultiMC and the message Minecraft gets stuck on. The official launcher has the same issue.</p>
+          <p>I tried a bunch of stuff that I could think of: I ran Java in Windows Compatibility Mode; I downloaded an ancient, really sketchy version of Java to see if that had the old code that I needed; I ran that version of Java in Compatibility Mode. Nothing worked at all.</p>
+          <p>After some research, I found a small community that is currently running an alpha server. I hopped into their server and discoverd a channel that proposed a solution to running classic Minecraft on modern systems.</p>
+          <p><a href="https://alwaysalpha.net/"><u>(Credits: shoutouts to the AlwaysAlpha.net Discord Server)</u></a></p>
+          <br>
+          <h5><b>The Solution: Betacraft Launcher</b></h5>
+          <p>There exists an unofficial unrelated-to-Mojang launcher that allows you to launch pre-alpha, alpha and beta versions of the game. It closely resembles early versions of the launcher, so you might get a kick of nostalgia out of it.</p>
+          <p>You can download the launcher by <a href="https://betacraft.uk/downloads"><u>clicking this link</u></a>. Download the specific version you require (a Windows .exe or a universal JAR file) and open the launcher. If you want to make sure your inventory remains throughout the server upgrades then click on "Log in" to linking your Microsoft account. You Minecraft Username will automatically be filled in and be set every time you start the game.</p>
+          <div class="text-center"><img class="img-fluid content-img" src="assets/img/betacraft.png"></div>
+          <p class="text-center img-caption">Fig 3: Home page of the Betacraft Launcher</p>
+          <p>Please be aware: <b>The inclusion of Betacraft in this tutorial is not an endorsement of it. The launcher allows you to download Minecraft without logging into an account. Please only use the launcher if you have bought an paid for the full version of Minecraft Java.</b> On top of this, I haven't properly vetted the software, so I cannot confirm the cyber security of the software. If you don't feel comfortable signing in, then please don't, but also be aware I cannot guarantee that your progress will carry over to when we can use the official launcher</p>
+          <br>
+
+          <h3 class="text-center" id="access">Getting access (IP Address)</h3>
+          <h6 class="text-center" ><u><a href="#top">Back to top</a></u></h6>
+          <br>
+          <h5 class="text-center">The server IP address is</h5>
+          <h3 class="text-center">mc.yokai64.com</h3>
+          <br>
+          <h6 class="text-center">If this isn't working, try connecting directly using <b>5.39.66.217:25586</b></h6>
+          <br>
+          <p>This server is currently invite only. If you would like to join, please message me on Discord at <a href="https://discordapp.com/users/604735882788077588/"><u>yokai#0404</u></a>.</p>
+          <br>
       </div>
 
       <br>
@@ -37,6 +90,8 @@
       <div class="container">
         <center><img class="footer-image" src="assets/img/yokai.png"></center>
       </div>
+
+      <br>
 
       <!-- Bootstrap JavaScript -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>

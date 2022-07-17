@@ -41,10 +41,27 @@
       <br>
  
       <div class="container content">
-          <p class="text-center">Page last updated 16/07/2022</p>
+          <div id="last-updated"> 
+            <p class="text-center">Page last updated ...</p>
+          </div>
 
-          <h5 class="text-center">The current version of the server is</h5>
-          <h3 class="text-center">a1.2.6</h3>
+          <div class="row">
+            <div class="col">
+              <h5 class="text-center">The current version is</h5>
+              <div id="current-version"> 
+                <h3 class="text-center">unknown</h3>
+              </div>
+            </div>
+            <div class="col">
+              <h5 class="text-center">The server is</h5>
+              <div id="current-status"> 
+                <h3 class='text-center'><span class='unknown'>●</span> Unknown</h3>
+              </div>
+            </div>
+          </div>
+          
+
+          
 
           <br>
           <h3 class="text-center">Index</h3>
@@ -52,6 +69,7 @@
           <h4 id="links"><a href="#about">About this server</a></h4>
           <h4 id="links"><a href="#setup">Set up for the current version</a></h4>
           <h4 id="links"><a href="#access">Getting access (IP Address)</a></h4>
+          <h4 id="links"><a href="#rules">Rules</a></h4>
           <h4 id="links"><a href="#roadmap">Roadmap for the server</a></h4>
           <br>
 
@@ -98,6 +116,17 @@
           <center><iframe src="https://discord.com/widget?id=507599065958187008&theme=dark" max-width="80%" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></center>
 
           <br>
+          <h3 class="text-center" id="rules">Rules</h3>
+          <h6 class="text-center" ><u><a href="#top">Back to top</a></u></h6>
+          <br>
+          <ol>
+            <li>No lag machines</li>
+            <li>Griefing and stealing is not explicitly disallowed, however you'll be put on the wall of shame on this page</li>
+            <li>Duping is not explicitly disallowed however discovered dup stashes may be deleted</li>
+          </ol>
+          <br>
+
+          <br>
           <h3 class="text-center" id="roadmap">Roadmap for the server</h3>
           <h6 class="text-center" ><u><a href="#top">Back to top</a></u></h6>
           <br>
@@ -118,5 +147,6 @@
 
       <!-- Bootstrap JavaScript -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+      <script src="assets/js/current-server-info.js"></script>
   </body>
 </html>
